@@ -1,0 +1,5 @@
+chmod +x ~/start_slam_robot.py
+python3 ~/start_slam_robot.py
+tmux attach -t slam_robot
+
+tmux kill-session -t slam_robot
